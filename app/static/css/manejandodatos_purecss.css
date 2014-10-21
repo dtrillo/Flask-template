@@ -1,0 +1,115 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+	margin: 0px;
+	color: #80817B;
+	text-align: center;
+	  font-family: 'Droid Sans', 'Helvetica', Arial, sans-serif;
+}
+.centrado {
+	text-align: center; 
+	margin: 0 auto;
+}
+.fondo {
+	background: #0099ff; 
+	color: #000000;
+}
+a {
+	color: #565654;
+	/*text-decoration: none; */
+}
+a:hover {
+	font-size: 1.1rem;
+}
+section, .section {
+	margin: 1em;
+	padding: 1em;
+}
+aside, .aside {
+	padding: 1rem;
+}
+/*
+pre {
+	background: #D4D0C8;
+	color: #010101;
+}
+*/
+section legend, .section  legend{
+	color: #0000FF;
+	font-size:120%;
+	margin: 0.5em;
+	padding: 1em;
+} 
+
+header, .header {
+	background: #07534F;
+	color: #9CDAB5;
+	text-align: center;
+	margin: auto; 
+	
+	width: 90%;
+	/* Borde */
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+	/* Sombra */
+	-moz-box-shadow: 10px 10px 5px #9CDAB5;
+    -webkit-box-shadow: 10px 10px 5px #9CDAB5;
+    box-shadow: 10px 10px 5px #9CDAB5;
+}
+footer, .footer {
+    text-align: center;
+    padding: 1em 0;
+	background: #9CDAB5;
+}
+
+footer a, .footer a {
+    
+    font-size: 120%;
+}
+footer .pure-menu a:hover, footer .pure-menu a:focus, .footer .pure-menu a:hover, .footer .pure-menu a:focus {
+    background: none;
+}
+
+#latlng{
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute; /* posición absoluta a navegador */
+  top: 0;             /* ajusta a borde de navegador */
+  left: 0;
+  right: 0;
+  height: 70px;
+}
+
+#map{
+  display: block;
+  margin: 3px;
+  padding: 3px;
+  position: absolute; /* posición absoluta a navegador */
+  top: 70px;      /* 50px debajo de borde de navegador */
+  left: 0;        /* ajusta a borde de navegador */
+  right: 0;
+  bottom: 54px;
+  background: #D8D6D6 ; /* verde si no hay mapa */
+}
+.fixed-bar {
+		bottom: 0;
+        height: 54px;
+        padding: 13px 0 4px;
+        position: fixed;
+        width: 100%;
+        z-index: 5000;
+}
